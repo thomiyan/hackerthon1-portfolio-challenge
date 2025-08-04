@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ayanda Thomas Mbuyisa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayanda Thomas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="container">
+
+    <!-- Hearder -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <span class="slogan">Coding Tomorrow, Today</span>
+                <button class="navbar-toggle" aria-label="Open navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#about" class="dropbtn" tabindex="0">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#about-summary">Summary</a>
+                        <a href="#languages">Programming Languages</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#interests">Interests</a>
+                        <a href="#projects">Projects</a>
+                    </div>
+                </li>
+                <li><a href="#qualifications">Education</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+
+        <!-- Main Introduction Home Section -->
+        <section class="intro-section">
+            <div class="intro">
+                <h1>Hi, I’m <span class="highlight">Ayanda Thomas</span></h1>
+                <div class="fading-titles">
+                    <span class="fading-text">A Professional Developer</span>
+                    <!--<span class="fading-text">A passionate Web Developer</span>
+                    <span class="fading-text">A passionate Mobile App Developer</span>
+                    <span class="fading-text">A passionate Full Stack Developer</span>-->
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ayanda-thomas-mbuyisa-90634a25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/thomiyan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/ethan_thomas_7?igsh=MWdkbDQxaTl2bnNlag==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/AyandaMbuyisa3?t=t-xCcUqfoxfMjjRu5zry8g&s=09" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="buttons">
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="cube-container">
+                <div class="cube four-sides">
+                    <img src="assets/images/profile1.jpg" alt="Profile 1" class="face front">
+                    <img src="assets/images/profile3.jpg" alt="Profile 2" class="face back">
+                    <img src="assets/images/profile2.jpg" alt="Profile 3" class="face right">
+                    <img src="assets/images/profile4.jpg" alt="Profile 4" class="face left">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about-summary" class="about-section">
+            <h2>About <span class="name-highlight">Ayanda Thomas</span></h2>
+            <p class="about-text">
+                I am a dedicated software developer with a passion for creating innovative solutions that make a real impact. 
+                With expertise in coding, problem-solving, and a love for learning, I thrive in dynamic environments where 
+                technology meets creativity. My journey has been driven by curiosity, adaptability, and a commitment to 
+                continuous growth. Whether it’s building responsive web applications, crafting elegant algorithms, or 
+                collaborating with teams to tackle complex challenges, I embrace every opportunity to turn ideas into reality.
+            </p>
+        </section>
+
+        <!-- Programming Languages Section -->
+        <section id="languages" class="languages-section">
+            <h2>Programming Languages</h2>
+            <p class="section-subtitle">Here are my languages and tools</p>
+            <div class="skills-bar-grid">
+                <div class="skill-bar-row">
+                    <span>HTML</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 80%;"></div>
+                        <span class="skill-bar-percent">80%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>CSS</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 75%;"></div>
+                        <span class="skill-bar-percent">75%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Dart & Flutter</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 30%;"></div>
+                        <span class="skill-bar-percent">30%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Python</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 25%;"></div>
+                        <span class="skill-bar-percent">25%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>JavaScript</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 15%;"></div>
+                        <span class="skill-bar-percent">15%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Node.js</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 20%;"></div>
+                        <span class="skill-bar-percent">20%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>SQL</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 55%;"></div>
+                        <span class="skill-bar-percent">55%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>MongoDB</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 17%;"></div>
+                        <span class="skill-bar-percent">17%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2>My Latest Projects</h2>
+            <p class="projects-intro">
+                Explore some of the recent works and collaborations I’ve built or contributed to.
+            </p>
+            <div class="projects-grid-card">
+                <div class="project-card neon-card">
+                    <img src="assets/images/opendevproject.png" alt="OpenDev Africa">
+                    <div class="project-info">
+                        <h3>OpenDev Africa (Up-comming)</h3>
+                        <p>An innovative mobile application project focused on grassroots empowerment and fostering African unity. 
+                            By connecting users, highlighting local talent, and providing valuable resources, OpenDev Africa aims 
+                            to accelerate growth and drive positive impact throughout Africa..</p>
+                        <a href="#contact" target="_blank">More info</a>
+                    </div>
+                </div>
+                <div class="project-card neon-card">
+                    <img src="assets/images/project2.PNG" alt="Personal Portfolio">
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A visually engaging and interactive website featuring dynamic elements such as rotating cubes and responsive 
+                            menus. The portfolio showcases rich symbolism and thoughtful design, offering visitors an immersive 
+                            experience while highlighting skills, projects, and creative identity</p>
+                        <a href="#" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card neon-card">
+                    <img src="assets/images/project3.webp" alt="Stokvel Management App">
+                    <div class="project-info">
+                        <h3>Stokvel Management App</h3>
+                        <p>A mobile application designed to streamline the management of stokvels—invitation-only clubs where 
+                            members regularly contribute to a central fund. The app helps users organize contributions, track payments, 
+                            schedule meetings, and enhance communication, making it easier for groups to manage finances transparently and 
+                            efficiently.</p>
+                        <a href="https://github.com/thomiyan/stokvel" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2>My Skills</h2>
+            <p class="section-subtitle">Here are my skills to represent my expertise</p>
+            <div class="skills-bar-grid">
+                <div class="skill-bar-row">
+                    <span>Python Programming</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 30%;"></div>
+                        <span class="skill-bar-percent">30%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Data Management & Analysis</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 25%;"></div>
+                        <span class="skill-bar-percent">25%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Networking & Hardware Support</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 40%;"></div>
+                        <span class="skill-bar-percent">40%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Creative Design & Symbolism</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 35%;"></div>
+                        <span class="skill-bar-percent">35%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>Leadership & Collaboration</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 42%;"></div>
+                        <span class="skill-bar-percent">42%</span>
+                    </div>
+                </div>
+                <div class="skill-bar-row">
+                    <span>AI & Software Engineering (Learning)</span>
+                    <div class="skill-bar-wrapper">
+                        <div class="skill-bar-fill" style="width: 20%;"></div>
+                        <span class="skill-bar-percent">20%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests" class="interests-section">
+            <h2>My Core Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-item">Dart & Flutter</div>
+                <div class="interest-item">Web development</div>
+                <div class="interest-item">AI & Emerging Technologies</div>
+                <div class="interest-item">OpenDev Africa Initiative</div>
+                <div class="interest-item">African Representation</div>
+                <div class="interest-item">Innovation Projects</div>
+                <div class="interest-item">Tech-Driven Problem Solving</div>
+                <div class="interest-item">Community Empowerment</div>
+            </div>
+        </section>
+
+        <!-- Education Qualifications Section -->
+        <section id="qualifications" class="education-section">
+            <h2>Education</h2>
+            <div class="edu-grid">
+                <div class="left-block">
+                    <div class="edu-block">
+                        <div class="edu-details">
+                            <p class="edu-title">Power Learn Project</p>
+                            <p class="edu-desc">Studies Software Development<br>Located in Nairobi - Kenya.</p>
+                            <p class="edu-year">• July 2025 - current</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="edu-block">
+                        <div class="edu-details">
+                            <p class="edu-title">Eswatini College of Technology</p>
+                            <p class="edu-desc">Diploma in Computer Science<br>Located in Mbabane - Eswatini.</p>
+                            <p class="edu-year">• 2020 - 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-block">
+                    <div class="edu-block">
+                        <div class="edu-details">
+                            <p class="edu-title">Mbabane Central High School</p>
+                            <p class="edu-desc">Focused on mathematics and sciences.</p>
+                            <p class="edu-year">• 2015 - 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <h2>Services</h2>
+            <p class="services-tagline">Please view the services I specialize in below</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-front">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                    </div>
+                    <div class="card-back">
+                        <h4>Languages/Tools</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-front">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="card-back">
+                        <h4>Languages/Tools</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-front">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Full-Stack Development</h3>
+                    </div>
+                    <div class="card-back">
+                        <h4>Languages/Tools</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-front">
+                        <i class="fas fa-database"></i>
+                        <h3>Database Management</h3>
+                    </div>
+                    <div class="card-back">
+                        <h4>Languages/Tools</h4>
+                        <ul>
+                            <li>SQL</li>
+                            <li>MongoDB</li>
+                            <li>Azure Data Studio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section contact-bg-img">
+            <h2>Contact Me</h2>
+            <p class="contact-intro">
+                For more information you can contact me or send me a message below
+            </p>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3><i class="fas fa-map-marker-alt"></i>  Address</h3>
+                        <p>Eswatini (Swaziland), Mbabane</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3><i class="fas fa-envelope"></i>  Email</h3>
+                        <p><a href="mailto:ayandambuyisa5@gmail.com">ayandambuyisa5@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3><i class="fas fa-phone"></i>  Phone</h3>
+                        <p><a href="tel:+26876416393">+268 7641 6393 / 7952 4963</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Follow Me On</h3>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/ayanda-thomas-mbuyisa-90634a25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/thomiyan" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/iyanda.mbuyisa" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://x.com/AyandaMbuyisa3?t=t-xCcUqfoxfMjjRu5zry8g&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://wa.me/26876416393" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <form class="form-grid">
+                        <div class="form-left">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-right">
+                            <label for="message">Type your Message...</label>
+                            <textarea id="message" name="message" rows="7" required></textarea>
+                            <div class="message-buttons">
+                                <button type="submit" class="send-btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <p>© Ayanda Thomas – All rights reserved<br />
+        Designed and Developed by <a href="#home">Ayanda Thomas Mbuyisa</a></p>
+    </footer>
+    <script>
+        // Responsive Navbar Toggle
+        document.querySelector('.navbar-toggle').onclick = function() {
+            document.querySelector('.nav-links').classList.toggle('nav-open');
+        };
+        // Dropdown on mobile
+        document.querySelector('.dropbtn').onclick = function(e) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('dropdown-open');
+        };
+        
+
+        // Collapse mobile nav after clicking any nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+            // Collapse mobile nav if open
+            const navToggle = document.getElementById('nav-toggle');
+            if (navToggle && navToggle.checked) {
+                navToggle.checked = false;
+            }
+            // Collapse dropdown if open (for desktop)
+            document.querySelectorAll('.dropdown').forEach(drop => {
+                drop.classList.remove('dropdown-open');
+            });
+            });
+        });
+
+        // Optionally: Open/close dropdown on click/touch
+        document.querySelectorAll('.dropdown > .dropbtn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+            // Prevent default for anchor
+            e.preventDefault();
+            // Close other dropdowns
+            document.querySelectorAll('.dropdown').forEach(drop => {
+                if (drop !== btn.parentNode) {
+                drop.classList.remove('dropdown-open');
+                }
+            });
+            // Toggle this dropdown
+            btn.parentNode.classList.toggle('dropdown-open');
+            });
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            const dropdowns = document.querySelectorAll('.dropdown');
+            dropdowns.forEach(drop => {
+            if (!drop.contains(e.target)) {
+                drop.classList.remove('dropdown-open');
+            }
+            });
+        });
+        </script>
+    </body>
+</html>
